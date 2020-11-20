@@ -1,0 +1,123 @@
+.logo { 
+    display: flex;
+    background-color: #6C00C0;
+    width: 100%;
+    height: 10%; 
+
+  }
+  .plogo{
+
+  
+     position: absolute;
+     color: white;  
+     font-size: 14px;
+     left: 350px;     
+     text-align: center;
+     top: 5px;
+  }
+
+  .left{
+      position: absolute;
+      display: flex;
+      background: black;
+      width:10%;
+      height: 100vh;
+  }
+
+  .pleft{
+    position: absolute;
+    color: white;  
+    font-size: 14px;
+    left: 20px;   
+    top: 150px;  
+    text-align: center;
+    justify-content: center;
+    
+ }
+  
+ 
+    .right{
+        position: absolute;
+        display: flex;
+        width: 88%;
+        height:100vh;
+        left:75px;
+        top: 39px;    
+        background: #FFDE69;
+      }
+      
+      .btn{
+        
+          position: absolute;
+          width: 250px;
+          height: 70px;
+          left: 170px;
+          top: 140px;
+          font-weight: bold;
+          font-size: 24px;          
+          background: #FFDE69;
+      }
+      
+
+
+      @media screen and (max-width: 768px) {
+       
+        .logo{
+            position: absolute;
+            left: 0px;   
+            top: 0px;
+            width: 100%;
+            justify-content: center;
+            height: 10vh;
+        }
+       .plogo{
+        position: absolute;
+        color:rgb(243, 242, 242);
+        font-size: 14px;
+        text-align: center;
+        left: 145px;
+        top: 10px;
+
+
+       }
+
+       .left{
+            
+        position: absolute;
+        left: 0px;   
+        width: 100%;
+        height:10vh;           
+        justify-content: center;           
+        background-color:#020202;
+        top: 100%;
+
+      }
+      .pleft{
+        position: absolute;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        left: 145px;
+        top: 10px;
+
+    }
+
+    .right{
+        top: 75px;
+        left: -110px;
+        height: 100vh;
+        width: 127%;
+        justify-content: center;
+        
+     }
+     .btn{
+         position: absolute;
+         left: 160px;
+         width: 50%;
+         justify-content: center;
+         top: 250px;
+     }
+
+
+}
+      
